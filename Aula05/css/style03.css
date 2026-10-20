@@ -1,0 +1,60 @@
+body {
+    background-color: lightcoral;
+    font-family: sans-serif;
+}
+
+.order,
+.flex-grow,
+.flex-shrink,
+.flex-basis {
+    background-color: blanchedalmond;
+    border: 8px solid darkgreen;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.order div {
+    background-color: ghostwhite;
+    border: 2px solid orangered;
+    color: darkgreen;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.flex-grow div {
+    background-color: ghostwhite;
+    border: 2px solid orangered;
+    color: darkgreen;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.flex-shrink div {
+    background-color: ghostwhite;
+    border: 2px solid orangered;
+    color: darkgreen;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.flex-basis div {
+    background-color: ghostwhite;
+    border: 2px solid orangered;
+    color: darkgreen;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
